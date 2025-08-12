@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   /* justify-content: space-evenly; */
   font-family: sans-serif;
-
+  min-height: 100vh;
 }
 
 button.chat {
@@ -60,6 +60,7 @@ main {
   padding-top: 5%;
   gap: 50px;
   flex-wrap: wrap;
+  flex-grow: 100;
 }
 
 
