@@ -13,7 +13,9 @@ button.chat {
   max-height: 70%;
   border: black;
   border-style: solid;
-
+  border-radius: 8px;
+  padding: .5em 1em;
+  font-weight: 700;
 }
 
 
@@ -21,8 +23,9 @@ button.chat {
 
 h3 {
   -webkit-text-fill-color: rgb(255, 255, 255);
-
-
+  font-weight: 900;
+  text-shadow: black;
+  font-style: inherit;
 }
 
 h2 {
@@ -37,13 +40,13 @@ div.top-bar {
   display: flex;
   justify-content: space-between;
   padding: 1%;
+  flex-wrap: wrap;
 }
 
 nav.top {
   display: flex;
-  gap: 10%;
-
-
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 
@@ -55,8 +58,19 @@ main {
   padding-right: 10%;
   padding-bottom: 5%;
   padding-top: 5%;
-  gap: 5%;
+  gap: 50px;
+  flex-wrap: wrap;
+}
 
+
+div.middle {
+  max-width: 40%;
+}
+
+
+
+img {
+  max-width: 50%;
 }
 
 main div p.service {
@@ -68,7 +82,6 @@ main div p.mission-statement {
   text-align: left;
   -webkit-text-fill-color: white;
   padding: 5%;
-
 }
 
 button {
@@ -86,9 +99,7 @@ nav.bottom-bar {
   align-items: center;
   padding-top: 5%;
   text-decoration-line: underline;
-
-
-
+  flex-wrap: wrap;
 }
 
 
@@ -99,7 +110,6 @@ footer {
   display: flex;
   justify-content: center;
   padding-bottom: 5%;
-
 }
 
 h1 {
@@ -107,5 +117,16 @@ h1 {
   margin-top: 0;
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding-top: 5%;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+p.end {
+  padding-top: 0;
+  margin-top: 0;
+  flex-wrap: wrap;
 }
